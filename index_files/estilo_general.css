@@ -1,0 +1,5073 @@
+/*  Propiedades globales */
+body  {
+	width: 100%;
+	/* height: 100%; */
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	/* overflow: hidden; */
+	}
+
+
+/* Color de fondo */
+.color_fondo_home  {
+	/* background-color: #CDE1CC; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_mar  {
+	/* background-color: #CCEAF4; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_italiana  {
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_mediterranea  {
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_arabe  {
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_oriental  {
+	/* background-color: #FEDCD3; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_india  {
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_sushi  {
+	/* background-color: #FEDCD3; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_carne  {
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_peruana  {
+	/* background-color: #FEDCD3; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_mexicana  {
+	/* background-color: #FEDCD3; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_autor  {
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_internacional  {
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_vegetariana  {
+	/* background-color: #CDE1CC; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_vegana  {
+	/* background-color: #CDE1CC; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_saludable  {
+	/* background-color: #CDE1CC; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_artesanal  {
+	/* background-color: #CDE1CC; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_pizza  {
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_hamburguesa  {
+	/* background-color: #FEDCD3; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_sandwich  {
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_picnic  {
+	/* background-color: #CDE1CC; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_general  {
+	/* background-color: #CDE1CC; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_glosario  {
+	/* background-color: #FEDCD3; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_vinos_y_maridaje  {
+	/* background-color: #FEDCD3; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_recetas  {
+	/* background-color: #FEDCD3; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_cocteles  {
+	/* background-color: #FEDCD3; */
+	background-color: #DDD1C2;
+	}
+
+.color_fondo_directorio  {
+	background-color: #CCEAF4;
+	}
+/*  Fin Color de fondo */
+
+
+p  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	text-align: justify;
+	margin-right: 10px;
+	margin-left: 10px;
+	line-height: 20px;
+	}
+
+em	{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.3em;
+	color: #000000;
+	font-style: italic;
+	line-height: 15px;
+	font-weight: bold;
+	}
+
+hr	{
+	display:none;
+	}
+
+h1  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 25px;
+	color : #000000;
+	text-align : left;
+	line-height: 30px;
+	text-indent: 10px;
+	}
+	
+h2  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color:#000000;
+	text-align : left;
+	font-weight: bold;
+	}
+
+h3  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.5em;
+	color : #000000;
+	text-align : left;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	}
+
+h4  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.4em;
+	color : #000000;
+	text-align : left;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-bottom: -10px;
+	}
+
+h5  {
+	font-family: 'Maven Pro', sans-serif;
+	color : #000000;
+	display: inline;
+	font-size: 12px;
+	text-align: left;
+	}
+
+h6  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 10px;
+	color : #000000;
+	text-align : left;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	}
+
+td  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	color : #000000;
+	text-align : center;
+	}
+/*  FIN Propiedades globales */
+
+
+
+
+
+/* SmartPhone */
+@media screen and (min-width: 240px) {
+	
+	
+#container_home	{
+	width: 100%;
+	height: auto;
+	display: block;
+	/* margin: 225px auto 0 auto; */
+	margin: 10px auto 0 auto;
+	z-index: 1;
+	background-color: transparent;
+	}
+	
+	
+.imagen_fondo_home  {	
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	Position: fixed;
+	top: 0;
+
+	background-image: url(../images/banners_titulos/imagen_fondo_home.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	background-color: #10311C;
+	}
+	
+.imagen_fondo_categorias  {	
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	Position: fixed;
+	top: 0;
+
+	background-image: url(../images/banners_titulos/imagen_fondo_categorias.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	background-color: #859EBC;
+	}
+	
+.imagen_fondo_tipos_comida  {	
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	Position: fixed;
+	top: 0;
+
+	background-image: url(../images/banners_titulos/imagen_fondo_tipos_comida.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	background-color: #DFDFDF;
+	}
+	
+.imagen_fondo_general {	
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	Position: fixed;
+	top: 0;
+
+	background-image: url(../images/banners_titulos/imagen_fondo_general.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	background-color: #DFDFDF;
+	}
+	
+#container {
+	width: 98%;
+	height: auto;
+	margin: 20px auto 0 auto;
+	background-color: transparent;
+	}
+	
+		
+/*  menu superior */
+nav {
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background-color: #97DF35;
+}
+	
+#menu_comunidad ul li {
+	list-style-type: none;
+	margin-top: -14px;
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+	position: relative;
+	left: -25px;		
+}
+
+#menu_comunidad ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+
+#menu_comunidad ul li a.current,
+#menu_comunidad ul li a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+	
+#menu_comunidad li img  {
+	width: 30px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10%;
+	display: inline-block;
+	border: none !important;
+	}
+/* FIN menu superior */
+
+
+
+	
+.banner_inicio_home img {
+	width: 95%;
+	height: auto;
+	margin: 0 auto 20px auto;
+	padding: 10px;
+	border: none;
+	background-color: transparent;
+	}
+	
+.banner_inicio_home a:hover {
+	opacity: 0.8;	
+	}
+	
+	
+.banner_inicio img {
+	width: 95%;
+	height: auto;
+	margin: -20px auto 20px auto;
+	padding: 10px;
+	border: none;
+	background-color: transparent;
+	}
+	
+.banner_inicio a:hover {
+	opacity: 0.8;	
+	}
+	
+
+	
+/* Menú zonas */
+.bloque_activador_zonas:before {
+	display: block;
+	content: "Encuentra Restaurantes por Zonas";
+	background: url("../images/iconos_menu/menu_1.svg") no-repeat left;
+ 	background-size: contain;
+}
+
+.bloque_activador_zonas {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	color: #000000;
+	line-height: 45px;
+	text-align: left;
+	text-indent: 60px;
+	width: 98%;
+	height: 45px;
+	margin: 0 auto;
+	/* border: 1px solid #E1E1E1; */
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.menu_zonas {
+	background-color: transparent;
+	}
+
+.menu_zonas ul {
+	list-style: none; /* Eliminamos el puntito negro */
+	width: 88%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.menu_zonas ul li {
+	line-height: 45px;
+	margin-bottom: 6px;
+	margin-left: -40px;
+	/* border: 1px solid #E1E1E1; */
+	}
+
+.menu_zonas a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	text-align: left;
+	text-decoration: none;
+	height: 45px;
+	display: block;
+	background: transparent;
+	}
+
+.menu_zonas a:hover {
+	background-color: #BE171E;
+	}
+
+.poblado img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-left: 25%;
+	background-image: url(../images/iconos_menu/rosado.gif);
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	background: #FFF;
+	}
+
+.palmas img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-left: 25%;
+	background-image: url(../images/iconos_menu/verde.gif);
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	background: #FFF;
+	}
+
+.oriente img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-left: 25%;
+	background-image: url(../images/iconos_menu/azul.gif);
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	background: #FFF
+	}
+
+.envigado img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-left: 25%;
+	background-image: url(../images/iconos_menu/naranja.gif);
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	background: #FFF
+	}
+	
+.sabaneta img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-left: 25%;
+	background-image: url(../images/iconos_menu/violeta.gif);
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	background: #FFF
+	}
+	
+.laureles img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-left: 25%;
+	background-image: url(../images/iconos_menu/rojo.gif);
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	background: #FFF
+	}
+	
+.centro img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-left: 25%;
+	background-image: url(../images/iconos_menu/cafe.gif);
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	background: #FFF
+	}
+	
+.general img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-left: 25%;
+	background-image: url(../images/iconos_menu/blanco.gif);
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	background: #FFF
+	}
+	
+.otras_ciudades img {
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-left: 25%;
+	background-image: url(../images/iconos_menu/blanco.gif);
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	background: #FFF;
+	}
+/* FIN Menú zonas */
+
+
+
+/* Títulos principales */
+.titulos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	line-height: 30px;
+	text-align: center;
+	width: 80%;
+	height: auto;
+	margin: 5px auto 0px auto;
+	background-color: #FF0;
+	}
+	
+.titulos_internos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.8em;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	width: 100%;
+	line-height: 30px;
+	margin: 5px auto 5px auto;
+	padding: 10px 0 10px 0;
+	background-color: #97DF35;
+	}
+	
+	
+.titulos_ciudades {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.8em;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	width: 98%;
+	line-height: 30px;
+	margin: 5px auto 5px auto;
+	padding: 10px 0 10px 0;
+	border: 1px solid #42392F;
+	background-color: #C9BCAF;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+	}	
+	
+.solo_aplica {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #BE171E;
+	text-align: center;
+	line-height: 30px;
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	background-color: transparent;
+	}
+	
+.titulo_rosado {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 98%;
+	height: auto;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	background-color: #FFAEDF;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_verde {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 98%;
+	height: auto;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	background-color: #7CCd7C;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_azul {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 98%;
+	height: auto;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	background-color: #00b2EE;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_naranja {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 98%;
+	height: auto;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	background-color: #F2B955;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_violeta {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 98%;
+	height: auto;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	background-color: #D1A0E9;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_rojo {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 98%;
+	height: auto;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	background-color: #FF8080;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_cafe {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 98%;
+	height: auto;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	background-color: #CDBE70;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_blanco {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color: #000000;
+	text-align: center;
+	line-height: 35px;
+	width: 98%;
+	height: 35px;
+	margin: 15px auto 15px auto;
+	background-color: #FFFFFF;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+/* FIN Títulos principales */
+
+
+
+/* Estilo marco buscador */
+.marco_buscador {
+	width: 98%;
+	height: 50px;
+	display: inline-block;
+	margin: 10px auto 0 auto;
+	padding: 2px 2px 2px 2px;
+	background-color: #D0D0D0;
+}
+/* FIN marco buscador */
+
+
+
+/* Marco menu inferior */
+.marco_menu_inferior {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-bottom: 5px;
+	margin-right: auto;
+}
+
+.marco_menu_inferior img {
+	width: 55px;
+	height: 55px;	
+	border: none;
+}
+
+.marco_menu_inferior a:hover {
+	opacity: 0.6;	
+}
+/* Fin Marco menu inferior */
+
+
+
+/* Marco banner de publicidad */
+.marco_banner {
+	width: 98%;
+	height: auto;
+	margin: 35px auto 0 auto;
+	}
+	
+.marco_banner img {	
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	}
+/* FIN Marco banner de publicidad */
+
+
+
+/* Marco banner de publicidad */
+.marco_banner_home {
+	width: 98%;
+	height: 250px;
+	margin: 0 auto 10px auto;
+	display: block;
+	float: left;
+	}
+	
+.marco_banner_home img{	
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	}
+/* FIN Marco banner de publicidad */
+
+
+
+/* Marco footer */
+footer {
+	width: 95%;
+	height: auto;
+	display: block;
+	margin: 10px auto 20px auto;
+	background-color: transparent;
+	}
+
+.menu_footer {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.menu_footer_home {
+	width: 100%;
+	height: auto;
+	display: none;
+	margin: 80px auto -60px auto;
+	float: left;
+	background-color: transparent;
+	
+	/* Sombra */
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+	
+/* Lupa Buscador */
+.lupa {
+	display: none;
+	}
+/* Fin Lupa Buscador */
+	
+
+/* Menu superior derecho */
+.menu_adicional:before {
+	height: 30px;
+	display: block;
+	content: "Menú adicional";
+	background: url("../images/iconos_menu/menu_3.svg") no-repeat left;
+	/* background-position: 35% 0%; */
+ 	background-size: contain;
+	}
+	
+.menu_adicional {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	/* color: #32520C; */
+	color: #FFFFFF;
+	line-height: 30px;
+	text-align: left;
+	text-indent: 40px;
+	width: 90%;
+	height: 30px;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 2%;
+	border-bottom: 1px solid #E1E1E1;
+	/* border: 1px solid #E1E1E1; */
+	cursor: pointer;
+	background-color: transparent;
+	}
+/* Fin Menu superior derecho */
+
+/* Marco izquierdo general */
+.marco_izquierdo {
+	width: 95%;
+	height: auto;
+	display: block;
+	margin: 0 auto 25px auto;
+	float: left;
+}
+
+.marco_izquierdo h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.1em;
+	color: #000000;
+	line-height: 25px;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+}
+
+.marco_izquierdo a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	height: 40px;
+	display: block;
+}
+
+.marco_izquierdo a:hover {
+	color: #BE171E;
+	/* color: #CDBE70; */
+}
+
+.marco_izquierdo img {
+	display: block;
+	margin: 0 10px 0 0;
+	float: left;
+}
+/* FIN Marco izquierdo general */
+
+
+
+/* Marco centro general */
+.marco_centro {
+	width: 95%;
+	height: auto;
+	margin: 0 auto 25px auto;
+	float: left;
+}
+	
+.marco_centro img {
+	display: block;
+	margin: 0 auto 0 auto;
+}	
+
+.marco_centro h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.1em;
+	color: #000000;
+	line-height: 25px;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+}
+
+.marco_centro a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	height: 45px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.marco_centro a:hover {
+	color: #BE171E;
+	/* color: #CDBE70; */
+}
+/* FIN Marco centro general */
+
+
+
+/* Marco derecho general */
+.marco_derecho {
+	width: 95%;
+	height: auto;
+	margin: 0 auto 25px auto;	
+	float: left;
+}
+	
+.marco_derecho img {
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.marco_derecho h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.1em;
+	color: #000000;
+	line-height: 25px;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+}
+
+.marco_derecho a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+	/* width: 100%;
+	height: 40px; */
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+.marco_derecho a:hover {
+	color: #BE171E;
+	/* color: #CDBE70; */
+}
+/* FIN Marco derecho general */
+
+
+
+/* Marco derecho home */
+.marco_varios_home {
+	line-height: 95px;
+	width: 100%;
+	height: 70px;
+	display: inline-block;
+	margin: 60px auto 10px auto;	
+	background-color: transparent;
+	/*background-color: #E7EBF2;*/
+	
+	/* Sombra */
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Boton me gusta de Facebook */
+/* .fb-like {
+	width: 80px;
+	height: 70px;
+	display: block;
+	margin: 0 auto;
+	background-color: #21FF00;
+} */
+/* Fin Boton me gusta de Facebook */
+
+.marco_varios_home h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	/*border-bottom: 1px solid #757575;*/
+}
+
+.marco_varios_home a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	text-decoration: none;
+	width: 290px;
+	height: 30px;
+	display: block;
+}
+
+.marco_varios_home a:hover {
+	color: #BE171E;
+}
+/* FIN Marco derecho home */
+
+
+.copyright {	
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 20px;
+	text-align: center;
+	width: 100%;
+	height: 25px;
+	display: block;
+	margin: 85px auto 10px auto;
+	float: left;
+	background-color: transparent;
+}
+
+.copyright a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	Color: #000000;
+	/* color: #CFF76D; */
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	color: #BE171E;
+}
+
+.contador_home {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-indent: 5px;
+	font-weight: normal;
+	line-height: 50px;
+	text-align: center;
+	width: 100%;
+	height: 45px;
+	display: block;
+	margin: 5px auto 10px auto;
+	float: left;
+	background-color: transparent;
+	/*background-color: #E7EBF2;*/
+	
+	/* Sombra */
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.contador {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color: #000000;
+	text-indent: 5px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	width: 100%;
+	display: block;
+	margin: 25px 0 0 0;
+	float: left;
+}
+/* Fin footer */
+
+
+
+/* Footer verde */
+.footer_verde {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.7em;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	width: 98%;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #97DF35;
+}
+
+.footer_verde a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color:#000000;
+	display: inline;
+}
+
+.footer_verde a:hover {
+	text-decoration: none;
+	color: #BE171E;
+}
+
+.footer_verde h6 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color:#000000;
+	text-align:center;
+	line-height: 30px;
+}
+/* Fin Footer verde */
+
+
+
+/* Banner imagen pagina adicional */
+.banner {
+	width: 98%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -10px;
+}
+
+.banner img {
+	width: 100%;
+	height: auto;
+	border: none;
+}
+
+banner_tips {
+	width: 98%;
+	height: auto;
+	margin-bottom: -10px;
+}
+
+.banner_tips img {
+	width: 100%;
+	height: auto;
+}
+/* Fin Banner imagen pagina adicional */
+
+
+
+
+/* Bloque galeira */
+.bloque_galeria {
+	text-align: center;
+	width: 100%;
+	height: 260px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	overflow: hidden;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+	white-space: nowrap;
+	background-color: #FFFFFF;
+}
+
+.bloque_galeria img {
+	width: 268px;
+	height: 200px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: solid 10px white;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+/* Fin Bloque galeira */
+	
+	
+	
+/* Bloque galeira varios */
+.bloque_galeria_varios {
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	overflow: hidden;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+	white-space: nowrap;
+	background-color: transparent;
+}
+
+.bloque_galeria_varios img {
+	width: 85%;
+	height: 350px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: solid 10px white;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+/* Fin Bloque galeira varios */	
+
+
+
+/* Campo textos internos */
+.campo_textos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	text-align: justify;
+	width: 98%;
+	height: auto;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	background-color: #DDD1C2;
+}
+
+.campo_textos h2 {	
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 2em;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+.campo_textos h4 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.8em;
+	color: #000000;
+	font-weight: normal;
+	text-align: left;
+	text-transform: none;
+	line-height: 25px;
+	margin-top: 25px;
+}
+	
+.fecha {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	color: #000000;
+	text-align: left;
+	line-height: 30px;
+	font-style: italic;
+	margin: 0 auto;
+	padding: 5px;
+	background-color: transparent;
+	}
+
+.campo_textos p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align: justify;
+	line-height: 20px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+.campo_textos em {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	font-style: normal;
+	text-align: left;
+}
+	
+.campo_textos em img {
+	margin: 0 0 0 0;
+	position: relative;
+	top: 10px;
+}
+
+.campo_textos a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color : #000000;
+	text-align : left;
+	line-height: 30px;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.campo_textos a:hover {
+	text-align : left;
+	color : #BE171E;
+	font-style: italic;
+}
+	
+.campo_texto_home {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #000000;
+	text-align: justify;
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	margin: 20px auto 25px auto;
+	border-bottom: 1px solid #000000;
+	}
+	
+.campo_texto_home p  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align: justify;
+	line-height: 25px;
+}
+	
+.campo_texto_home h1 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000000;
+	}
+	
+
+.destacar {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color: #000000;
+	text-align: center;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nombre_chef  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	line-height: 30px;
+	color: #000000;
+}
+/* Fin Campo textos internos */
+	
+	
+	
+/* Campo directorio */
+.campo_directorio {
+	width: 98%;
+	height: auto;
+	margin: 20px auto 50px auto;
+	background-color: #B6D3B4;
+}
+
+.campo_directorio a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color : #000000;
+	text-align : left;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 45px;
+	margin: 0 0 0 5px;
+	padding: 0 0 10px 0;
+	display: block;
+	/* border-bottom: 1px solid #32520C; */
+}
+
+.campo_directorio a:hover {
+	color : #BE171E;
+}
+	
+.campo_directorio img {
+	margin: 5px;
+	float: left;
+}
+/* Fin Campo directorio */
+	
+	
+	
+/* Campo textos quienes somos */
+.campo_textos_quienes_somos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #FFFFFF;
+	text-align: justify;
+	width: 100%;
+	height: auto;
+	margin: 20px auto;
+	background-color: transparent; /* #F5F5F5 */
+	border: none;
+}
+	
+.campo_textos_quienes_somos p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	text-align: justify;
+	line-height: 22px;
+}
+/* Fin Campo textos quienes somos */
+
+
+
+
+/* Campo textos tips */
+.campo_textos_tips {
+	width: 98%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;	
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 0;
+	background-color: #F5F5F5;
+}
+
+.campo_textos_tips h4 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color: #000000;
+	text-align: left;
+	line-height: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.campo_textos_tips p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	text-align: justify;
+	line-height: 20px;
+	padding: 10px;
+}
+/* Fin Campo textos internos */
+
+
+
+/* Menu inferior internos */
+.menu_inferior_internos {
+	width: 98%;
+	height: 50px;
+	display: inline-block;	
+	margin: 0 auto 10px auto;
+	background-color: transparent;
+}
+
+.menu_inferior_internos a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.25em;
+	color: #000000;
+	text-decoration: none;
+	font-style: normal;
+	text-align: left;
+	line-height: 45px;
+	width: 48%;
+	height: 50px;
+	display: block;
+	margin: 0 2% 15px 0;
+	float: left;
+	background-color: transparent;
+	/* background-color: #97DF35; */
+}
+
+.menu_inferior_internos a:hover {
+	color: #BE171E;
+	font-style: normal;
+	background-color: transparent;
+}
+
+.menu_inferior_internos ul {
+	list-style: none;
+}
+
+.menu_inferior_internos ul li {
+	line-height: 45px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.adicional {
+	line-height: 0;
+	width: 100%;
+	height: 45px;
+	display: block;
+	margin: 10px auto 10px auto;
+	background-color: #E7EBF2;
+}
+
+.adicional_2 {
+	width: 100%;
+	height: auto;
+	display: block;
+	float: none;
+	margin: 0;
+	background-color: #97DF35;
+}
+
+.menu_inferior_internos img {
+	width: 35px;
+	height: 35px;
+	margin: 10px;	
+	float: left;
+	border: none;
+}
+
+.menu_inferior_internos iframe {
+	width: 100px;
+	height: 21px;
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Fin Menu inferior internos */
+
+
+
+
+/* Marco comentarios */
+.campo_comentarios {
+	width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 150px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	background-color: transparent;
+}
+
+.fb-comments {
+	background-color: #E7EBF2;
+	width: 100% !important;
+}
+/* Fin Marco comentarios */
+
+
+/* FIN Menu inferior internos */
+
+
+
+/* Estilo para datos eventos */
+.datos_eventos {
+	color: #000000;
+	width: 95%;
+	height: 30px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #E3E3E3;
+}
+
+.datos_eventos a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.1em;
+	font-style: normal;
+}
+
+.datos_eventos a:hover {
+	text-decoration: none;
+	color: #BE171E;
+	font-style: normal;
+}
+
+.datos_eventos p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	font-weight: normal;
+	line-height: 25px;
+	margin-left: 5px;
+}
+
+.datos_eventos img {
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	float: left;
+}
+/* FIN para datos eventos */
+	
+	
+
+/* Marco tipos de comidas home */
+.marco_tipos_comidas_home {
+	/* width: 95%;
+	height: auto;
+	margin: 0 auto 20px auto;
+	padding: 0 0 10px 0;
+	background-color: transparent; */
+	}
+	
+.marco_tipos_comidas_home h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.85em;
+	color : #000000;
+}
+	
+.marco_tipos_comidas_home a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color : #FFF;
+	text-decoration: none;
+	display: block;
+}
+
+.marco_tipos_comidas_home a:hover {
+	color: #BE171E;
+	opacity: 1;
+}
+
+.marco_tipos_comidas_home img {
+	border: none;
+	/* Redondear esquinas de la imagenes. */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	/* Sombra a imagenes */
+	-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-vendor-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+	
+	
+
+.marco_tipo_comida_home {
+	width: 35%;
+	height: 125px;
+	display: inline;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 7.5%;
+	padding-left: 10%;
+	padding-right: 0;
+	padding-bottom: 12%;
+	}
+	
+.marco_tipo_comida_home p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	color: #000000;
+	text-align : center;
+	margin: 10px 0 0 0;
+	text-transform: none;
+	font-weight: normal;
+	}
+	
+.marco_tipo_comida_home img {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	}
+/* FIN  Marco tipos de comidas home */
+
+
+
+/* Marco tipos de comidas */
+#marco_tipos_comidas {
+	width: 95%;
+	height: auto;
+	margin: 0 auto 20px auto;
+	padding: 0 0 10px 0;
+	background-color: transparent;
+	}
+	
+#marco_tipos_comidas h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.85em;
+	color : #000000;
+}
+	
+#marco_tipos_comidas a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color : #32520C;
+	text-decoration: none;
+	display: block;
+}
+
+#marco_tipos_comidas a:hover {
+	color: #BE171E;
+	opacity: 1;
+}
+
+#marco_tipos_comidas img {
+	border: none;
+	/* Redondear esquinas de la imagenes. */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	/* Sombra a imagenes */
+	-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-vendor-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+/* FIN  Marco tipos de comidas */
+	
+	
+	
+/* Marco tipos de comidas */
+.marco_tipos_comidas {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	margin: 0 auto 20px auto;
+	padding: 0;
+	background-color: transparent;
+	}
+	
+.marco_tipos_comidas h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.85em;
+	color : #000000;
+}
+	
+.marco_tipos_comidas a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color : #000000;
+	text-decoration: none;
+	display: block;
+}
+
+.marco_tipos_comidas a:hover {
+	color: #BE171E;
+	opacity: 1;
+}
+
+.marco_tipos_comidas img {
+	border: none;
+	/* Redondear esquinas de la imagenes. */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	/* Sombra a imagenes */
+	-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-vendor-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+	
+
+.marco_tipo_comida {
+	width: 35%;
+	height: 125px;
+	display: inline;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 7.5%;
+	padding-left: 10%;
+	padding-right: 0;
+	padding-bottom: 12%;
+	}
+	
+.marco_tipo_comida img {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	}
+/* FIN  Marco tipos de comidas */
+	
+	
+	
+/* Lista de restaurantes */
+.marco_lista_restaurantes {
+	width: 35%;
+	height: 125px;
+	display: inline;
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-top: 7.5%;
+	padding-left: 10%;
+	padding-right: 0;
+	padding-bottom: 12%;
+	}
+	
+.marco_lista_restaurantes img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	}
+	
+.marco_lista_restaurantes p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align : center;
+	margin: 15px 0 0 0;
+	text-transform: none;
+	font-weight: normal;
+	}
+/* FIN  Lista de restaurantes */
+
+
+
+/* Mapas */
+#bodyContent {
+	width: 320px;
+	height: auto;
+	margin-top: -15px;
+	}
+	
+#bodyContent h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.3em;
+	color: #000000;
+	font-weight: bold;
+	text-align: left;	
+	}
+	
+#marco_imagen img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+	margin-top: -10px;
+	background-color: #F3F3F3;
+	}
+	
+#marco_zona {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000;
+	text-align: left;
+	line-height: 25px;
+	width: 170px;
+	height: 25px;
+	float: left;
+	margin-top: -10px;
+	margin-bottom: 22px;
+	}
+	
+#marco_zona img {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	margin-top: 0px;
+	float: left;
+	}
+	  
+#bodyContent p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000;
+	text-align: left;
+	line-height: 20px;
+	}
+/* Fin Mapas */
+
+
+
+/* Estilo marco categorias tarifas */
+.marco_categorias_tarifas {
+	width: 98%;
+	height: 250px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	padding-top: 10px;
+	background-color: #F3F3F3;
+}
+
+.marco_categorias_tarifas p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	text-align: left;
+	width: 92%;
+	height: 20px;
+	margin-left: 3%;
+	margin-top: 10px;
+	background-color: #E3E3E3;
+}
+
+.marco_celda_tarifa {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	text-align: left;
+	width: 92%;
+	height: auto;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	padding-left: 5px;
+	padding-lright: 5px;
+	background-color: #E3E3E3;
+	line-height: 20px;
+}
+/* FIN Estilo marco categorias tarifas */
+
+
+
+/* Glosario */
+#container .content-container {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.1em;
+	width: 100%;
+	height: auto;
+	margin: 0 auto 10px auto;
+	overflow: auto;
+	background-color: #DDD1C2;
+	}
+	
+.content-container ul {
+	margin: 0 auto;
+	padding: 5px;	
+	list-style-type: none;
+	}
+	
+.content-container ul li {
+	height: auto;
+	display: block;
+	margin: 0 auto 10px auto;
+	}
+	
+.content-container img {
+	width: 250px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 0 5px 0 5px;
+	float: none;
+	}
+
+
+.contenido_glosario {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #000;
+	text-align: justify;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #DDD1C2;
+	}
+
+.contenido_glosario strong {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #000000;
+	display: block;
+	}
+	
+.titulos_glorario {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.5em;
+	color: #000000;
+	text-align: center;
+	width: 100%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #97DF35;
+	}
+	
+	
+/* Boton scroll para subir */
+p.scrollup {
+	 width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    display: none;
+    text-indent: -9999px;
+    background: url('../images/iconos_menu/icon_top.png') no-repeat;
+	cursor: pointer;
+}
+/* Fin Boton scroll para subir */
+
+
+/* Letras para navegar por el glosario */	
+.letras_glosario {
+	width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
+}
+
+.letras_glosario a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color: #97DF35;
+	text-align : center;
+	text-transform: none;
+	text-decoration: none;
+	display: block;
+	margin: 5px;
+	padding: 20px;
+	background-color: #32520C;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.letras_glosario a:hover {
+	opacity: .5;
+}
+
+.letras_glosario ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: transparent;
+}
+
+.letras_glosario ul li {
+	display: inline-block;
+	margin: 10px 0 10px 0;
+	padding: 0px;
+}
+/* Fin Letras para navegar por el glosario */
+
+
+/* Fin Glosario */
+
+
+
+
+/* iframe de cada restaurante */
+.accordionContent {
+	width: 98%;
+	height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
+
+iframe {
+	width: 98%;
+	height: auto;
+	border: none;
+	overflow: hidden;
+}
+/* Fin iframe de cada restaurante */
+
+
+
+
+/* Banner para cada restaurante de Sabor y Gusto */
+.banner_adicional_restaurantes img {
+	width: 95%;
+	height: auto;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	border: none;
+	}
+
+.banner_adicional_restaurantes a:hover {
+	opacity: 0.8;	
+	}
+/* Fin Banner para cada restaurante de Sabor y Gusto */	
+
+
+
+/* Boton para cada restaurante para regresar a Sabor y Gusto */
+.boton_regresar a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	text-align: left;
+	line-height: 40px;
+	text-decoration: none;
+	font-style: normal;
+	width: 100%;
+	height: 40px;
+	display: block;
+	margin: 0 auto 10px auto;
+	background-color: #97DF35;
+}
+
+.boton_regresar a:hover {
+	opacity: 0.6;	
+}
+
+.boton_regresar img {
+	width: 30px;
+	height: 30px;
+	margin: 5px 10px 0 120px;
+	float: left;
+	border: none;
+}
+/* Fin Boton para cada restaurante para regresar a Sabor y Gusto */
+
+
+
+/* Indicar que se agregaron restaurantes nuevos */
+.nuevos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	line-height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	width: 35px;
+	height: 35px;
+	display: inline;
+	margin: 5px 10px 0 0;
+	position: relative;
+	float: right;
+	background-color: #FF0000;
+	border: 0;
+}
+/* Fin Indicar que se agregaron restaurantes nuevos */
+
+
+
+/* Indicar que se agrego algo al menu superior */
+.nuevos_menu_superior {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	font-weight: bold;
+	line-height: 22px;
+	border-radius: 50%;
+	width: 22px;
+	height: 22px;
+	margin-left: 0px;
+	margin-top: -55px;
+	background-color: #FF0000;
+	border: 3px solid #97DF35;
+	display: inline;
+	position: absolute;
+}
+/* Fin Indicar que se agrego algo al menu superior */
+
+
+
+/* Indicar que se agregaron restaurantes nuevos */
+.restaurantes_nuevos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.3em;
+	color: #F5F5F5;
+	line-height: 30px;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	margin-left: 45px;
+	position: absolute;
+	background-color: #FF0000;
+	border: 3px solid #F5F5F5;
+}
+	
+.restaurante_nuevo {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 2em;
+	color: #F5F5F5;
+	line-height: 25px;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin: 63.5px auto 0 82.5px;
+	position: absolute;
+	background-color: #FF0000;
+	border: 3px solid #F5F5F5;
+}
+/* Fin Indicar que se agregaron restaurantes nuevos */
+
+
+/* Boton me gusta de Facebook */
+/* .fb-like {
+	width: 80px;
+	height: 70px;
+	display: block;
+	margin: 0 auto;
+	background-color: #FF0000;
+} */
+/* Fin Boton me gusta de Facebook */
+
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+	
+/*.banner_inicio_index img{
+	width: 95%;
+	height: auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	background-color: transparent;	
+	}*/
+
+
+	
+/* Google Maps */
+.lista_mapas{
+	width: 200px;
+	overflow-x: hidden;
+	background-color: #FFFFFF;
+	}
+
+.lista_mapas ul{
+	text-align: left;
+	list-style-type: none;
+	}
+
+.lista_mapas li{
+	width: 200px;
+	height: 26px;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: -40px;
+	}
+
+.lista_mapas li a {
+	color: #000000;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	display: block;
+	background-color: #FFFFFF;
+	}
+
+.lista_mapas li a:hover{
+	color: #BE171E;
+	background-color: #32520C;
+	}
+
+.mapas img{
+	float: left;
+	margin-top: 9px;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+	
+.mapas a:hover {
+	text-decoration: none;
+	color: #FF1C1C;
+	}
+
+#map {
+	width: 100%;
+	height: 450px;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	}
+
+#map-side-bar {
+	font-family: 'Maven Pro', sans-serif;
+	text-align: left;
+	line-height: 40px;
+	width: 100%;
+	padding: 10px;
+	float: left;
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	}
+
+
+/* Lista de zonas */
+.mapas{
+	width: 98%;
+	height: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;	
+	}
+	
+.mapas a{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	font-weight: normal;
+	width: 100%;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	display: inline-block;
+	border: 1px solid #D9E7CF;
+	margin-left: -10px;
+	}
+
+.mapas p{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	font-weight: bold;
+	}
+/* Fin Lista de zonas */
+
+/* FIN Google Maps */
+	
+}
+/* Fin SmartPhone */
+
+
+
+
+
+/* Computadores */
+@media screen and (min-width: 640px) {
+
+
+/* Muestra mensaje de fancybox */
+.fancybox {
+	font-family: 'Maven Pro', sans-serif;
+	color: #000000;
+	font-size: 0.8em;
+	text-decoration: none;
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+	
+#popup p {
+	font-family: 'Maven Pro', sans-serif;
+	color: #000000;
+	font-size: 1em;
+	text-decoration: none;
+	}
+	
+#popup h2 {
+	font-family: 'Maven Pro', sans-serif;
+	color: #000000;
+	font-size: 1.3em;
+	text-decoration: none;
+	}
+/* FIN Muestra mensaje de fancybox */
+
+	
+#container_home	{
+	width: 700px;
+	height: auto;
+	display: block;
+	margin: 225 auto 0 auto;
+	z-index: 1;
+	background-color: transparent;
+	}
+
+	
+.imagen_fondo_home {	
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	Position: fixed;
+	top: 0;
+
+	background-image: url(../images/banners_titulos/imagen_fondo_home.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	background-color: #10311C;
+	}
+	
+.imagen_fondo_categorias  {	
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	Position: fixed;
+	top: 0;
+
+	background-image: url(../images/banners_titulos/imagen_fondo_categorias.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	background-color: #859EBC;
+	}
+	
+.imagen_fondo_tipos_comida  {	
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	Position: fixed;
+	top: 0;
+
+	background-image: url(../images/banners_titulos/imagen_fondo_tipos_comida.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	background-color: #DFDFDF;
+	}
+	
+.imagen_fondo_general {	
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	Position: fixed;
+	top: 0;
+
+	background-image: url(../images/banners_titulos/imagen_fondo_general.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	background-color: #DFDFDF;
+	}
+	
+#container	{
+	width: 660px;
+	height: 100%;
+	margin: 20px auto 0 auto;
+	background-color: transparent;
+	}
+	
+/*  menu superior */
+nav {
+	width: 100%;
+	height: 40px;
+	display: inline-block;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #97DF35;
+	/* http://fetchak.com/ie-css3 */		
+	box-shadow: 4px 4px 4px 2px rgba(160,174,178,0.8); /* Opera 10.5+, future browsers and IE6+ using IE-CSS3 */
+	behavior: url(ie-css3.htc); /* This lets IE know to call the script on all elements which get the 'box' class */
+	}
+
+#menu_comunidad ul li {
+	height: 45px;
+	width: 45px;
+	list-style-type: none;
+	margin-top: -20px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#menu_comunidad ul li a {
+	font-family: 'Maven Pro', sans-serif;
+	color: #000000;
+	font-size: 0.8em;
+	text-decoration: none;
+	}
+
+#menu_comunidad ul li a.current,
+#menu_comunidad ul li a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+	}
+
+#menu_comunidad li img  {
+	height: 35px;
+	width: 35px;
+	margin-left: 0;
+	margin-right: 0;
+	display: inline-block;
+	padding: 5px;
+	border: none !important;
+	}
+/* FIN menu superior */
+	
+	
+	
+.banner_inicio_home img {
+	width: 550px;
+	height: 128px;
+	display: block;
+	margin: -220px auto 40px auto;
+	padding: 10px;
+	border: none;
+	background-color: transparent;
+	}
+	
+.banner_inicio_home a:hover {
+	opacity: 0.8;	
+	}
+	
+	
+.banner_inicio img {
+	width: 470px;
+	height: 110px;
+	margin: 0 auto 30px auto;
+	padding: 10px;
+	border: none;
+	background-color: transparent;
+	}
+	
+.banner_inicio a:hover {
+	opacity: 0.8;	
+	}
+
+	
+	
+/* Menu zonas */
+.menu_zonas {
+	margin: 0 0 0 0;
+	padding: 10px 0 10px 0;
+	background-color: transparent;
+	/* border-top: 1px solid #FF0000; */
+	}
+	
+
+
+.bloque_activador_zonas_home:before {
+	display: block;
+	content: "Encuentra Restaurantes por Zonas";	
+	background: url("../images/iconos_menu/menu_home_2.svg") no-repeat right;
+ 	background-size: contain;
+	}
+
+.bloque_activador_zonas_home:hover, .bloque_activador_zonas_home:active {
+	width: 625px;
+	height: 10px;
+	margin: 10px auto 10px auto;
+	
+	background: url("../images/iconos_menu/menu_home_2_hover.svg") no-repeat right;
+	}
+	
+.bloque_activador_zonas_home {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #ECF7D1;
+	line-height: 10px;
+	text-align: center;
+	text-indent: 0px;
+	text-decoration: none;
+	width: 625px;
+	height: 10px;
+	margin: 10px auto 10px auto;
+	border: none;
+	cursor: pointer;
+}
+	
+	
+	
+.bloque_activador_zonas:before {
+	display: block;
+	content: "Encuentra Restaurantes por Zonas";	
+	background: url("../images/iconos_menu/menu_2.svg") no-repeat right;
+ 	background-size: contain;
+	}
+
+.bloque_activador_zonas:hover, .bloque_activador_zonas:active {
+	width: 625px;
+	height: 10px;
+	margin: 10px auto 10px auto;
+	
+	background: url("../images/iconos_menu/menu_2_hover.svg") no-repeat right;
+	}
+	
+.bloque_activador_zonas {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+	line-height: 10px;
+	text-align: center;
+	text-indent: 0px;
+	text-decoration: none;
+	width: 625px;
+	height: 10px;
+	margin: 10px auto 10px auto;
+	border: none;
+	cursor: pointer;
+}	
+
+.menu_zonas ul {
+	width: 700px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+
+.menu_zonas ul li {
+	display: inline-block;
+	border: none;
+	margin: 5px;
+	}
+	
+.menu_zonas .poblado a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0px;
+	width: 70px;
+	height: 70px;
+	background: #FFAEDF;
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	}
+
+.menu_zonas .poblado a:hover {
+	background-color: #BE171E;
+	}
+	
+.poblado img {
+	visibility: hidden;
+	margin-bottom: -5px;
+	}
+
+.menu_zonas .palmas a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0px;
+	width: 70px;
+	height: 70px;
+	background: #7CCD7C;
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	
+	/* Sombra */	
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	}
+	
+.menu_zonas .palmas a:hover {
+	background-color: #BE171E;
+	}
+	
+.palmas img {
+	visibility: hidden;
+	margin-bottom: -5px;
+	}
+
+
+.menu_zonas .oriente a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0px;
+	width: 70px;
+	height: 70px;
+	background: #BE171E;
+
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	}
+	
+.menu_zonas .oriente a:hover {
+	background-color: #BE171E;
+	}
+	
+.oriente img {
+	visibility: hidden;
+	margin-bottom: -5px;
+	}
+
+
+.menu_zonas .envigado a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	text-align: center;	
+	line-height: 0px;
+	width: 70px;
+	height: 70px;
+	background: #F2B955;
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	}
+	
+.menu_zonas .envigado a:hover {
+	background-color: #BE171E;
+	}
+	
+.envigado img {
+	visibility: hidden;
+	margin-bottom: -5px;
+	}
+	
+.menu_zonas .sabaneta a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	text-align: center;	
+	line-height: 0px;
+	width: 70px;
+	height: 70px;
+	background: #D1A0E9;
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	}
+	
+.menu_zonas .sabaneta a:hover {
+	background-color: #BE171E;
+	}
+	
+.sabaneta img {
+	visibility: hidden;
+	margin-bottom: -5px;
+	}
+	
+.menu_zonas .laureles a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	text-align: center;	
+	line-height: 0px;
+	width: 70px;
+	height: 70px;
+	background: #FF8080;
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	}
+	
+.menu_zonas .laureles a:hover {
+	background-color: #BE171E;
+	}
+	
+.laureles img {
+	visibility: hidden;
+	margin-bottom: -5px;
+	}
+	
+.menu_zonas .centro a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0px;
+	width: 70px;
+	height: 70px;
+	background: #CDBE70;
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	}
+	
+.menu_zonas .centro a:hover {
+	background-color: #C5B45A;
+	}
+	
+.centro img {
+	visibility: hidden;
+	margin-bottom: -5px;
+	}
+	
+	
+.menu_zonas .general a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	text-align: center;
+	line-height: 0px;
+	width: 70px;
+	height: 70px;
+	background: #FFFFFF;
+	
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	}
+	
+.menu_zonas .general a:hover {
+	background-color: #BE171E;
+	}
+	
+.general img {
+	visibility: hidden;
+	margin-bottom: -5px;
+	}
+	
+	
+	
+.menu_zonas .otras_ciudades a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	text-align: center;
+	line-height: 12px;
+	width: 70px;
+	height: 70px;
+	position: relative;
+	top: 8px;
+	background: #FFFFFF;
+	/* Circulo */
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 70px;
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+	}
+	
+.menu_zonas .otras_ciudades a:hover {
+	background-color: #BE171E;
+	}
+	
+.otras_ciudades img {
+	width: 0px;
+	float: none;
+	/* visibility: hidden; */
+	margin: 0 auto;
+	
+	/* Circulo */
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	}
+/* Fin Menu zonas */
+
+
+/* Boton ocultar menu zonas */
+.cerrar_menu_zonas {
+	font-family: 'Maven Pro', sans-serif;
+	color: #000000;
+	font-size: 10px;
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+	height: 20px;
+	display: block;
+	margin: 0 auto;
+	background-color: #FFF;
+	
+	/* Redondear esquinas */
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	}
+
+.cerrar_menu_zonas:hover {
+	color: #BE171E;
+	}
+/* Boton ocultar menu zonas */
+
+
+
+/* Títulos principales */
+.titulos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	background-color: transparent;
+	}
+	
+.titulos_internos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.5em;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	width: 700px;
+	vertical-align: middle;
+	line-height: 40px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	padding: 0;
+	background-color: #97DF35;	
+	position: relative;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+	
+.titulos_ciudades {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.5em;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+	width: 660px;
+	vertical-align: middle;
+	line-height: 40px;
+	margin: 10px auto 40px auto;
+	letter-spacing: 1px;
+	padding: 0;	
+	position: relative;
+	border: 1px solid #42392F;
+	background-color: #C9BCAF;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+	}	
+	
+	
+.solo_aplica {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #BE171E;
+	text-align: center;
+	line-height: 30px;
+	width: 700px;
+	height: auto;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	background-color: transparent;
+	}
+	
+.titulo_rosado {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 700px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 999;
+	background-color: #FFAEDF;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_verde {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 700px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 999;
+	background-color: #7CCD7C;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_azul {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 700px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 999;
+	background-color: #00B2EE;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_naranja {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 700px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 999;
+	background-color: #f2b955;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_violeta {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 700px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 999;
+	background-color: #D1A0E9;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_rojo {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 700px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 999;
+	background-color: #FF8080;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_cafe {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 30px;
+	width: 700px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 999;
+	background-color: #CDBE70;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+	
+.titulo_blanco {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	line-height: 35px;
+	width: 660px;
+	height: 35px;
+	margin: 0 auto 10px auto;
+	position: relative;
+	z-index: 999;
+	background-color: #FFFFFF;
+	
+	/* Sombra */		
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.50);
+	}
+/* FIN Títulos principales */
+
+
+
+/* Estilo marco buscador */
+.marco_buscador {
+	width: 700px;
+	height: 30px;
+	display: inline-block;
+	position: relative;
+	top: 0;
+	margin: 10px auto 0 auto;
+	padding: 1px 1px 1px 1px;
+	background-color: #D0D0D0;
+}
+/* FIN marco buscador */
+
+
+
+/* Marco menu inferior */
+.marco_menu_inferior {
+	width: 505px;
+	height: 60px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-bottom: 5px;
+	margin-right: auto;
+}
+
+.marco_menu_inferior img {
+	width: 60px;
+	height: 60px;	
+	border: none;
+}
+
+.marco_menu_inferior a:hover{
+	opacity: 0.6;	
+}
+/* Fin Marco menu inferior */
+
+
+
+/* Marco banner de publicidad */
+.marco_banner {
+	width: 700px;
+	height: 250px;
+	display: block;	
+	margin: 25px auto 50px auto;
+	}
+	
+.marco_banner img {	
+	width: 700px;
+	height: auto;
+	margin: 0 auto;
+	}
+/* FIN Marco banner de publicidad */
+
+
+
+/* Marco banner de publicidad */
+.marco_banner_home {
+	width: 700px;
+	height: 250px;
+	margin: 0 auto;
+	display: block;
+	float: left;
+	position: relative;
+	top: 0;
+	background-color: transparent;
+	}
+	
+.marco_banner_home img {
+	border: none;
+	display: block;
+	margin: 0 auto;
+	}
+/* FIN Marco banner de publicidad */
+
+
+
+
+/* Marco footer */
+footer {	
+	width: 100%;
+	height: auto;	
+	display: block;
+	margin: 0 auto;
+	background-color: transparent;
+}
+
+.menu_footer {
+	width: 700px;
+	height: 245px;
+	margin: 0 auto;
+}
+
+.menu_footer_home {
+	width: 180px;
+	height: auto;
+	display: none;
+	margin: 0;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	overflow: hidden;
+	z-index: 9999 !important;
+	background-color: #FFFFFF;
+	
+	/* Sombra */
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),0 0 10px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+}
+	
+/* Lupa Buscador */
+.lupa {
+	width: 25px;
+	height: 25px;
+	display: block;
+	margin: 0 10px 0 0;
+	float: left;
+	background: url("../images/iconos_menu/search.png") no-repeat left;
+ 	background-color: transparent;
+	}
+/* Fin Lupa Buscador */
+
+	
+
+/* Menu superior derecho */
+.menu_adicional:before {
+	height: 30px;
+	display: block;
+	content: "";
+	background: url("../images/iconos_menu/menu_3.svg") no-repeat left;
+ 	background-size: contain;
+	}
+
+.menu_adicional:hover {
+	-webkit-filter: grayscale(100%) brightness(500%) brightness(40%);
+	filter: grayscale(100%) brightness(500%) brightness(80%);
+	}
+	
+.menu_adicional {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	line-height: 30px;
+	text-align: left;
+	text-indent: 40px;
+	width: 30px;
+	height: 30px;
+	display: block;
+	margin: 0;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	cursor: pointer;
+	}
+/* Fin Menu superior derecho */
+
+
+/* Marco izquierdo general */
+.marco_izquierdo {
+	width: 210px;
+	height: auto;
+	margin: 5px 25px 5px 5px;
+	float: left;
+}
+
+
+.marco_izquierdo h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	border-bottom: 1px solid #000000;
+}
+
+.marco_izquierdo a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	text-decoration: none;
+	width: 290px;
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+.marco_izquierdo a:hover {
+	color: #BE171E;
+	/* color: #CDBE70; */
+}
+
+.marco_izquierdo img {
+	display: block;
+	margin: 0 10px 0 0;
+	float: left;
+}
+/* FIN Marco izquierdo general */
+
+
+
+/* Marco centro general */
+.marco_centro {
+	width: 210px;
+	height: auto;
+	margin: 5px 5px 5px 5px;
+	float: left;
+}
+	
+.marco_centro img {
+	display: block;
+	margin: 0 auto 0 auto;
+}	
+
+.marco_centro h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	border-bottom: 1px solid #000000;
+}
+
+.marco_centro a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	text-decoration: none;
+	width: 210px;
+	height: 45px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.marco_centro a:hover {
+	color: #BE171E;
+	/* color: #CDBE70; */
+}
+/* FIN Marco centro general */
+
+
+
+/* Marco derecho general */
+.marco_derecho {
+	width: 210px;
+	height: auto;
+	margin: 5px 25px 5px 5px;
+	float: left;
+}
+	
+.marco_derecho img {
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.marco_derecho h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	border-bottom: 1px solid #000000;
+}
+
+.marco_derecho a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	text-decoration: none;
+	/* width: 290px;
+	height: 30px; */
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+.marco_derecho a:hover {
+	color: #BE171E;
+	/* color: #CDBE70; */
+}
+/* FIN Marco derecho general */
+
+
+/* Marco derecho home */
+.marco_derecho_home {
+	width: 210px;
+	height: auto;
+	margin: 5px 5px 5px 5px;
+	float: left;
+	background-color: #F0F;
+}
+
+.marco_derecho_home h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	border-bottom: 1px solid #000000;
+}
+
+.marco_derecho_home a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	text-decoration: none;
+	width: 290px;
+	height: 30px;
+	display: block;
+}
+
+.marco_derecho_home a:hover {
+	color: #BE171E;
+}
+/* FIN Marco derecho home */
+
+
+/* Marco derecho home */
+.marco_varios_home {
+	line-height: 20px;
+	width: 160px;
+	height: 150px;
+	display: inline-block;
+	margin: 15px auto 10px auto;
+	padding: 10px 0 5px 0;
+	background-color: transparent;
+	
+	/* Sombra
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),0 0 10px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset; */
+}
+
+.marco_varios_home h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	/*border-bottom: 1px solid #757575;*/
+}
+
+.marco_varios_home a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 25px;
+	text-align: left;
+	text-decoration: none;
+	width: 290px;
+	height: 30px;
+	display: block;
+}
+
+.marco_varios_home a:hover {
+	color: #BE171EE;
+}
+/* FIN Marco derecho home */
+
+
+
+.copyright {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 25px;
+	text-align: center;
+	width: 100%;
+	height: 25px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	float: left;
+	background-color: transparent;
+}
+
+.copyright a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	/* color: #CFF76D; */
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	color: #BE171E;
+}
+
+
+
+.contador_home {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-indent: 5px;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: center;
+	width: 160px;
+	height: 25px;
+	display: block;
+	margin: 0 auto 0 auto;
+	padding: 10px 0 0 0;
+	float: none;
+	background-color: transparent;
+	
+	/* Sombra
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3),0 0 10px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.1) inset; */
+}
+
+.contador {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-indent: 5px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: left;
+	width: 100px;
+	margin: 25px 0 0 0;
+	float: right;
+	background-color: #F90;
+}
+/* Fin footer */
+
+
+
+/* Footer verde */
+.footer_verde {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	width: 700px;
+	height: 30px;
+	margin-top: 10px;
+	float: left;
+	background-color: #97DF35;
+}
+
+.footer_verde a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #8A0000;
+	display: inline;
+}
+
+.footer_verde a:hover{
+	text-decoration: none;
+	color: #BE171E;
+}
+
+.footer_verde h6{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color:#000000;
+	text-align:center;
+	line-height: 30px;
+}
+/* Fin Footer verde */
+
+
+
+/* Banner imagen pagina adicional */
+.banner{
+	width: 700px;
+	height: auto;
+}
+
+.banner img{
+	border: none;
+}
+/* Fin Banner imagen pagina adicional */
+
+
+
+/* Bloque galeira */
+.bloque_galeria {
+	text-align: center;
+	width: 690px;
+	height: 400px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	overflow: hidden;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+	white-space: nowrap;
+	background-color: transparent;
+}
+
+.bloque_galeria img {
+	width: 470px;
+	height: 350px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: solid 10px white;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+/* Fin Bloque galeira */
+	
+	
+	
+/* Bloque galeira varios */
+.bloque_galeria_varios {
+	text-align: center;
+	width: 690px;
+	height: 400px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	overflow: hidden;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+	white-space: nowrap;
+	background-color: transparent;
+}
+
+.bloque_galeria_varios img {
+	width: 350px;
+	height: 350px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: solid 10px white;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+/* Fin Bloque galeira varios */
+
+
+
+/* Campo textos internos */
+.campo_textos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #FFFFFF;
+	text-align: justify;
+	width: 700px;
+	height: auto;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	background-color: #DDD1C2;
+	border-bottom: 1px solid #32520C;
+}
+
+.campo_textos h2  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 2em;
+	color: #32520C;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;	
+}
+
+.campo_textos h3  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 3em;
+	color: #FFFF00;
+	font-weight: normal;
+	text-align: center;
+	line-height: 25px;
+}
+
+.campo_textos h4  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 25px;
+	color: #000000;
+	text-align: left;
+	line-height: 25px;
+	display: block;
+	margin: 0 0 15px 0;
+}
+
+.campo_textos h5  {
+	font-family: 'Maven Pro', sans-serif;
+	float: left;
+	text-decoration: none;
+	color: #000000;
+	font-size: 300%;
+	font-weight: normal;
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	line-height: 75px;
+}
+	
+.fecha {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	color: #000000;
+	text-align: left;
+	line-height: 30px;
+	font-style: italic;
+	padding: 5px;
+	background-color: transparent;
+	}
+
+.campo_textos p  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align: justify;
+	line-height: 25px;
+}
+	
+.campo_textos em {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align: left;
+	padding-left: 0;
+}
+	
+.campo_textos em img {
+	margin: 0 0 0 5px;
+	position: relative;
+	top: 10px;
+}
+
+.campo_textos a  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color : #000000;
+	text-align : left;
+	line-height: 30px;
+	font-style: italic;
+	text-decoration: none;
+}
+
+.campo_textos a:hover {
+	text-align : left;
+	color : #8A0000;
+	font-style: italic;
+}
+	
+.campo_texto_home {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #000000;
+	text-align: justify;
+	width: 700px;
+	height: auto;
+	display: inline-block;
+	margin: 20px auto 50px auto;
+	border-bottom: 1px solid #32520C;
+	}
+	
+.campo_texto_home p  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color: #000000;
+	text-align: justify;
+	line-height: 25px;
+}
+	
+.campo_texto_home h1 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #32520C;
+	}
+
+.destacar {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.6em;
+	color: #000000;
+	text-align: center;
+	width: 700px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nombre_chef  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	line-height: 30px;
+	color: #000000;
+}
+/* Fin Campo textos internos */
+	
+	
+	
+/* Campo directorio */
+.campo_directorio {
+	width: 700px;
+	height: auto;
+	margin: 20px auto 15px auto;
+	background-color: #B6D3B4;
+}
+	
+.campo_directorio a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	color : #000000;
+	text-align : left;
+	font-style: normal;
+	text-decoration: none;
+	line-height: 45px;
+	margin: 10px 0 10px 5px;
+	padding: 0 0 5px 0;
+	display: block;
+	/* border-bottom: 1px solid #32520C; */
+}
+
+.campo_directorio a:hover {
+	color : #BE171E;
+}
+	
+.campo_directorio img {
+	margin: 6px;
+	float: left;
+}
+/* Fin Campo directorio */
+	
+	
+
+/* Campo textos quienes somos */
+.campo_textos_quienes_somos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #FFFFFF;
+	text-align: justify;
+	width: 700px;
+	height: auto;
+	margin: 20px auto;
+	background-color: transparent; /* #F5F5F5 */
+	border: none;
+}
+	
+.campo_textos_quienes_somos p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	text-align: justify;
+	line-height: 22px;
+}
+/* Fin Campo textos quienes somos */
+
+
+
+/* Campo textos tips */
+.campo_textos_tips {
+	width: 700px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #F5F5F5;
+}
+
+.campo_textos_tips h4  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.3em;
+	color: #000000;
+	text-align: left;
+	line-height: 25px;
+	padding: 5px;
+}
+
+
+.campo_textos_tips p  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	text-align: justify;
+	line-height: 20px;
+	margin: 10px;
+	padding: 5px;
+}
+/* Fin Campo textos internos */
+
+
+
+
+/* Menu inferior internos */
+.menu_inferior_internos {
+	width: 660px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 auto 10px auto;
+	background-color: transparent;
+}
+
+.menu_inferior_internos ul {
+	list-style: none;
+}
+
+.menu_inferior_internos ul li {
+	line-height: 45px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.menu_inferior_internos a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.25em;
+	color: #000000;
+	text-decoration: none;
+	font-style: normal;
+	text-align: left;
+	line-height: 40px;
+	width: 155px;
+	height: 40px;
+	margin: 0 10px 15px 0;
+	float: left;
+	background-color: transparent;
+}
+
+.menu_inferior_internos a:hover {
+	color: #BE171E;
+	background-color: transparent;
+	
+}
+
+.adicional {
+	line-height: 0px;
+	width: 140px;
+	height: 45px;
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0;
+	/*background-color: #E7EBF2;*/
+	background-color: transparent;
+}
+
+.adicional_2 {
+	width: 110px;
+	height: auto;
+	float: left;
+	margin: 0 0 0 50px;
+	background-color: transparent;
+}
+
+.menu_inferior_internos img {
+	width: 35px;
+	height: 35px;
+	display: block;
+	margin: 5px 20px 0 10px;
+	float: right;
+	border: none;
+}
+
+.menu_inferior_internos iframe {
+	height: 21px;
+	width: 100px;
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Fin Menu inferior internos */
+
+
+/* Marco comentarios */
+.campo_comentarios {
+	width: 700px;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 150px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.fb-comments {
+	background-color: #E7EBF2;
+	width: 700px !important;
+}
+/* Fin Marco comentarios */
+
+
+/* Estilo para datos eventos */
+.datos_eventos {
+	color: #000000;
+	width: 350px;
+	height: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 290px;
+	padding-top: 5px;
+	position: relative;
+	top: 0px;
+	background-color: transparent;
+}
+
+.datos_eventos a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.1em;
+	font-style: normal;
+}
+
+.datos_eventos a:hover {
+	text-decoration: none;
+	color: #BE171E;
+	font-style: normal;
+}
+
+.datos_eventos p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	font-weight: normal;
+	line-height: 25px;
+	text-align: justify;
+	display: inline-block;
+	position: relative;
+	top: -20px;
+}
+
+
+.imagen_eventos {
+	width: 280px;
+	height: 200px;
+	float: left;
+}
+
+.datos_eventos_margen {
+	height: 42px;
+	width: 480px;
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+/* FIN para datos eventos */
+
+
+
+/* Google Maps */
+.lista_mapas {
+	width: 200px;
+	overflow-x: hidden;
+	background-color: #FFFFFF;
+}
+
+.lista_mapas ul {
+	text-align: left;
+	list-style-type: none;
+}
+
+.lista_mapas li {
+	width: 200px;
+	height: 26px;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: -40px;
+}
+
+.lista_mapas li a {
+	color: #000000;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	display: block;
+	background-color: #FFFFFF;
+}
+
+.lista_mapas li a:hover {
+	color: #BE171E;
+	background-color: #32520C;
+}
+
+.mapas img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+	
+.mapas a:hover {
+	text-decoration: none;
+	color: #BE171E;
+}
+
+#map {
+	width: 520px;
+	height: 450px;
+	float: left;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+#map-side-bar {
+	font-family: 'Maven Pro', sans-serif;
+	line-height: 25px;
+	float: right;
+	width: 145px;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.map-link{
+	margin-left: -10px;
+}
+
+
+/* Lista de zonas */
+.mapas{
+	width:690px;
+	height:450px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #F5F5F5;
+}
+	
+.mapas a{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+	font-weight: normal;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.mapas p{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	font-weight: bold;
+}
+/* Fin Lista de zonas */
+
+/* FIN Google Maps */
+	
+	
+
+/* Marco tipos de comidas home */
+.marco_tipos_comidas_home {
+	/* font-family: 'Maven Pro', sans-serif;
+	font-size: 13px;
+	color : #32520C;
+	width: 700px;
+	height: auto;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 10px; */
+	}
+	
+.marco_tipos_comidas_home h2  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	text-align : center;
+	text-transform: none;
+	font-weight: normal;
+}
+	
+.marco_tipos_comidas_home a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	color : #FFF;
+	text-decoration: none;
+}
+
+.marco_tipos_comidas_home a:hover {
+	color: #BE171E;
+	opacity: 1;
+}
+
+.marco_tipos_comidas_home img {
+	/* Redondear esquinas de la imagenes. */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	/* Sombra a imagenes */
+	-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-vendor-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+	
+	
+
+.marco_tipo_comida_home {
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	display: inline;
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-bottom: 25px;
+	padding: 0;
+	}
+	
+.marco_tipo_comida_home p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	color: #000000;
+	text-align : center;
+	margin: 10px 0 0 0;
+	text-transform: none;
+	font-weight: normal;
+	}
+	
+.marco_tipo_comida_home img {
+	width: 90%;
+	height: auto;
+	text-align: center;
+	display: inline;
+	}
+/* FIN  Marco tipos de comidas home */
+
+
+
+/* Marco tipos de comidas */
+#marco_tipos_comidas {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 13px;
+	color : #000000;
+	width: 660px;
+	height: auto;
+	display: inline-block;
+	margin-bottom: 10px;
+	background-color: transparent;
+	}
+	
+#marco_tipos_comidas h2  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	text-align : center;
+	text-transform: none;
+	font-weight: normal;
+}
+	
+#marco_tipos_comidas a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color : #000000;
+	text-decoration: none;
+}
+
+#marco_tipos_comidas a:hover {
+	color: #BE171E;
+	opacity: 1;
+}
+
+#marco_tipos_comidas img {
+	/* Redondear esquinas de la imagenes. */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	/* Sombra a imagenes */
+	-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-vendor-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+/* FIN  Marco tipos de comidas */
+	
+	
+	
+/* Marco tipos de comidas */
+.marco_tipos_comidas {
+	/* font-family: 'Maven Pro', sans-serif;
+	font-size: 13px;
+	color : #000000;
+	width: 660px;
+	height: auto;
+	display: inline-block;
+	margin-bottom: 10px;
+	background-color: transparent; */
+	}
+	
+.marco_tipos_comidas h2  {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: #000000;
+	text-align : center;
+	text-transform: none;
+	font-weight: normal;
+}
+	
+.marco_tipos_comidas a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color : #000000;
+	text-decoration: none;
+}
+
+.marco_tipos_comidas a:hover {
+	color: #BE171E;
+	opacity: 1;
+}
+
+.marco_tipos_comidas img {
+	/* Redondear esquinas de la imagenes. */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	/* Sombra a imagenes */
+	-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	-vendor-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.marco_tipo_comida {
+	width: 100px;
+	height: 125px;
+	text-align: center;
+	display: inline;
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	padding: 0;
+	}
+	
+.marco_tipo_comida img {
+	width: 80%;
+	height: auto;
+	text-align: center;
+	display: inline;
+	}
+/* FIN  Marco tipos de comidas */
+	
+	
+/* Lista de restaurantes */
+.marco_lista_restaurantes {
+	width: 200px;
+	height: auto;
+	text-align: center;
+	float: left;
+	margin: 0 10px 15px 10px;
+	padding: 0;
+	background-color: transparent;
+	}
+	
+.marco_lista_restaurantes img {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	}
+	
+.marco_lista_restaurantes p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	color: #000000;
+	text-align : center;
+	width: 150px;
+	height: 55px;
+	margin: 10px auto 0 auto;
+	text-transform: none;
+	font-weight: normal;
+	}
+/* FIN  Lista de restaurantes */
+
+
+
+/* Mapas */
+#bodyContent {
+	width: 320px;
+	height: auto;
+	margin-top: -15px;
+	}
+	
+#bodyContent h2 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.3em;
+	color: #000000;
+	font-weight: bold;
+	text-align: left;	
+	}
+	
+#marco_imagen img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+	margin-top: -10px;
+	background-color: #F3F3F3;
+	}
+	
+#marco_zona {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000;
+	text-align: left;
+	line-height: 25px;
+	width: 170px;
+	height: 25px;
+	float: left;
+	margin-top: -10px;
+	margin-bottom: 22px;
+	}
+	
+#marco_zona img {
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	margin-top: 0px;
+	float: left;
+	}
+	  
+#bodyContent p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000;
+	text-align: left;
+	line-height: 20px;
+	}
+/* Fin Mapas */
+
+
+
+/* Estilo marco categorias tarifas */
+.marco_categorias_tarifas {
+	width: 700px;
+	height: 250px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	padding-top: 10px;
+	background-color: #F3F3F3;
+}
+
+.marco_categorias_tarifas p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #000000;
+	text-align: left;
+	width: 660px;
+	height: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	padding-left: 5px;
+	background-color: #E3E3E3;
+}
+
+.marco_celda_tarifa {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #000000;
+	text-align: left;
+	width: 660px;
+	height: 20px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	padding-left: 5px;
+	padding-lright: 5px;
+	background-color: #E3E3E3;	
+}
+/* FIN Estilo marco categorias tarifas */
+
+
+
+/* Glosario */
+#container .content-container {
+	font-family: 'Maven Pro', sans-serif;
+	width: 700px;
+	height: auto;
+	margin: 0 auto 10px auto;
+	overflow: hidden;
+	background-color: #DDD1C2;
+	}
+	
+.content-container ul {
+	margin: 0 auto;
+	padding: 5px;	
+	list-style-type: none;
+	}
+	
+.content-container ul li {
+	height: auto;
+	display: inline-block;
+	margin: 0 0 10px 0;
+	}
+	
+.content-container img {
+	width: 250px;
+	height: auto;
+	display: block;
+	margin: 0;
+	padding: 0 5px 0 5px;
+	float: left;
+	}
+
+
+.contenido_glosario {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	text-align: left;
+	width: 420px;
+	height: auto;
+	display: block;
+	padding: 5px;
+	float: right;	
+	background-color: #DDD1C2;
+	}
+
+.contenido_glosario strong {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color: #000000;
+	text-align: left;
+	display: block;
+	}
+	
+.titulos_glorario {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 2em;
+	color: #000000C;
+	text-align: center;
+	width: 700px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #97DF35;
+	}
+	
+	
+/* Boton scroll para subir */
+p.scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+    background: url('../images/iconos_menu/icon_top.png') no-repeat;
+	cursor: pointer;
+}
+/* Fin Boton scroll para subir */
+	
+	
+/*p.return-to-top {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	color: #32520C;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	width: 700px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-bottom: 15px;
+	margin-right: auto;
+	background-color: #97DF35;
+	cursor: pointer;
+	}*/
+	
+
+/* Letras para navegar por el glosario */	
+.letras_glosario {
+	width: 700px;
+	height: auto;
+	display: block;
+	position: relative;
+}
+
+.letras_glosario a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color: #97DF35;
+	text-align : center;
+	text-transform: none;
+	text-decoration: none;
+	display: block;
+	margin: 5px;
+	padding: 20px;
+	background-color: #32520C;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.letras_glosario a:hover {
+	opacity: .5;
+}
+
+.letras_glosario ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: transparent;
+}
+
+.letras_glosario ul li {
+	display: inline-block;
+	margin: 10px 0 10px 0;
+	padding: 0px;
+}
+/* Fin Letras para navegar por el glosario */
+
+
+/* Fin Glosario */
+
+
+
+/*
+.accordionContent {
+	position: relative;
+	padding-bottom: 100%;
+	padding-top: 25px;
+	min-height: 100%;
+	background-color: #FF0000;
+	
+}
+.accordionContent iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+*/
+
+
+/* iframe para cada restaurante */
+.accordionContent {
+	width: 700px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	background-color: #FFFFFF;
+}
+
+iframe {
+	width: 700px;
+	height: auto;
+	border: none;
+	overflow: hidden;
+}
+/* Fin iframe para cada restaurante */
+
+
+
+/* Banner para cada restaurante de Sabor y Gusto */
+.banner_adicional_restaurantes img {
+	width: 470px;
+	height: auto;
+	margin: 15px auto 15px auto;
+	border: none;
+	}
+
+.banner_adicional_restaurantes a:hover {
+	opacity: 0.8;	
+	}
+/* Fin Banner para cada restaurante de Sabor y Gusto */	
+	
+	
+
+
+/*http://www.bymichaellancaster.com/blog/fluid-iframe-and-images-without-javascript-plugins/*/
+/*.accordionContent {
+	position: relative;
+	padding-bottom: 100%;
+	padding-top: 200px;
+	height: 0;
+	overflow: hidden;
+	margin-top: -170px;
+	
+}
+
+.accordionContent iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	background-color: #FF0000;
+}*/
+
+
+
+
+/* Boton para cada restaurante para regresar a Sabor y Gusto */
+.boton_regresar a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #000000;
+	text-align: left;
+	line-height: 40px;
+	text-decoration: none;
+	font-style: normal;
+	width: 100px;
+	height: 40px;
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0 10px 0 10px;
+	float: right;
+	background-color: #97DF35;
+}
+
+.boton_regresar a:hover{
+	color: #FFFFFF;
+	background-color: #97DF35;
+	opacity: 1;
+}
+
+.boton_regresar img {
+	width: 25px;
+	height: 25px;
+	margin: 7px 0 0 0;
+	float: right;
+	border: none;
+}
+/* Fin Boton para cada restaurante para regresar a Sabor y Gusto */
+
+	
+/* Indicar que se agregaron restaurantes nuevos */
+.nuevos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #FFFFFF;
+	line-height: 22px;
+	border-radius: 50%;
+	width: 22px;
+	height: 22px;
+	margin: -5px 0 0 -20px;
+	background-color: #FF0000;
+	border: 3px solid #FFFFFF;
+	display: inline;
+	position: absolute;
+	
+}
+/* Fin Indicar que se agregaron restaurantes nuevos */
+
+
+
+/* Indicar que se agrego algo al menu superior */
+.nuevos_menu_superior {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	font-weight: bold;
+	line-height: 22px;
+	border-radius: 50%;
+	width: 22px;
+	height: 22px;
+	margin-left: -20px;
+	margin-top: -5px;
+	background-color: #FF0000;
+	border: 3px solid #97DF35;
+	display: inline;
+	position: absolute;
+}
+/* Fin Indicar que se agrego algo al menu superior */
+
+
+
+/* Indicar que se agregaron restaurantes nuevos */
+.restaurantes_nuevos {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.3em;
+	color: #F5F5F5;
+	line-height: 30px;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin-top: -12px;
+	margin-left: 60px;
+	position: absolute;
+	background-color: #FF0000;
+	border: 3px solid #F5F5F5;
+}
+	
+.restaurante_nuevo {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 2em;
+	color: #F5F5F5;
+	line-height: 25px;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin: 63.5px auto 0 82.5px;
+	position: absolute;
+	background-color: #FF0000;
+	border: 3px solid #F5F5F5;
+}
+/* Fin Indicar que se agregaron restaurantes nuevos */
+
+
+}
+/* Fin Computadores */
+
+
+
+#precarga {
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0
+	}
+
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+	background-color: #FFFFFF;
+}
+
+#loader {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-image: url(../images/loader.gif);
+	margin: -50px 0 0 -50px;
+}
+/* Fin Preloader */

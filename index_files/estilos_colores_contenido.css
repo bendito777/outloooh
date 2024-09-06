@@ -1,0 +1,832 @@
+/* SmartPhone */
+@media screen and (min-width: 240px) {
+	
+/* Bloque general */
+.bloque_activador_general {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	width: 98%;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #4E7D13;
+	cursor: pointer;
+}
+
+.bloque_activador_general:hover {
+	color: #32520C;
+	background-color: #97DF35;
+}
+/* Fin Bloque general  */
+
+
+/* Estilo Poblado. Rosado */
+.bloque_activador_rosado {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 98%;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #FFAEDF;
+	cursor: pointer;
+}
+
+.bloque_activador_rosado:hover {
+	color: #FFFFFF;
+	background-color: #AA0066;
+}
+/* Fin Estilo Poblado. Rosado */
+
+
+/* Estilo Palmas. Verde */
+.bloque_activador_verde {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 98%;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #7CCD7C;
+	cursor: pointer;
+}
+
+.bloque_activador_verde:hover {
+	color: #FFFFFF;
+	background-color: #548B54;
+}
+/* Fin EstiloPalmas. Verde */
+
+
+/* Estilo Llano Grande. Azul */
+.bloque_activador_azul {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 98%;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #00B2EE;
+	cursor: pointer;
+}
+
+.bloque_activador_azul:hover {
+	color: #FFFFFF;
+	background-color: #00688B;
+}
+/* Fin Estilo Llano Grande. Azul */
+
+
+/* Estilo Envigado. Naranja */
+.bloque_activador_naranja {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 98%;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #F2B955;
+	cursor: pointer;
+}
+
+.bloque_activador_naranja:hover {
+	color: #FFFFFF;
+	background-color: #8B4513;
+}
+/* Fin Estilo Envigado. Naranja */
+
+
+/* Estilo Sabaneta. Violeta */
+.bloque_activador_violeta {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 98%;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #D1A0E9;
+	cursor: pointer;
+}
+
+.bloque_activador_violeta:hover {
+	color: #FFFFFF;
+	background-color: #68228B;
+}
+/* Fin Estilo Sabaneta. Violeta */
+
+
+/* Estilo Laureles. Rojo */
+.bloque_activador_rojo {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 98%;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #FF8080;
+	cursor: pointer;
+}
+
+.bloque_activador_rojo:hover {
+	color: #FFFFFF;
+	background-color: #B22222;
+}
+/* Fin Estilo Laureles. Rojo */
+
+
+/* Estilo Centro. Cafe */
+.bloque_activador_cafe {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 98%;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #CDBE70;
+	cursor: pointer;
+}
+
+.bloque_activador_cafe:hover {
+	color: #FFFFFF;
+	background-color: #8B814C;
+}
+/* Fin Estilo Centro. Cafe */
+	
+	
+	
+/* Estilo del campo de los restaurantes. Dirección, teléfono... */
+.bloque_contenido {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.2em;
+	color: #444444;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: transparent;
+	}
+	
+	
+/* Bloque carta */
+.bloque_carta {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #444444;
+	width: 98%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	border: none;
+	}
+
+.bloque_carta img {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	}
+/* Fin Bloque carta */
+
+
+/* Bloque mapa */
+.bloque_mapa {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #444444;
+	/* display: none; */
+	width: 98%;
+	height: 400px;
+	margin: 0 auto 10px auto;
+	/* overflow: hidden; */
+	background-color: #FFFFFF;
+}
+	
+#map {
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+}
+	
+.cambiar_mapa_btn {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #223509;
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	font-style: normal;
+	width: 180px;
+	height: 45px;
+	display: block;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	float: left;
+	background-color: #97DF35;
+	border: none;
+	cursor: pointer;
+}
+	
+.cambiar_mapa_btn:hover {	
+	color: #FFFFFF;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 480px;
+}
+
+.bloque_mapa iframe {
+	display: block;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: hidden;
+}
+	
+#mapa {
+	width: 100%;
+  	height: 400px;
+	margin: 0 auto;
+	float: none;
+	background-color: #FFFFFF;
+	}
+	
+#plano {
+	width: 48%;
+  	height: 400px;
+	margin: 0 0 0 2%;
+	float: left;
+	background-color: #FFF000;
+	}
+/* Fin Bloque mapa */
+
+
+/* Estilo para datos de reataurantes */
+.bloque_datos {
+    color: #000000;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 5px;
+    border-bottom: 1px dashed #C2C1C1;
+}
+
+.bloque_datos a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #8A0000;
+	font-weight: normal;
+	line-height: 16px;
+	text-decoration: none;		
+}
+
+.bloque_datos a:hover {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #FF1C1C;
+	font-weight: normal;
+	line-height: 16px;
+	text-decoration: none;		
+}
+
+.bloque_datos p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.25em;
+    color: #000000;
+    text-align: left;
+    font-weight: normal;
+    line-height: 30px;
+    margin-left: 65px;
+}
+
+.bloque_datos img {
+	float: left;
+	padding: 15px;
+}
+
+.bloque_datos_adicional {
+	color: #000000;
+	width: 100%;
+	height: 30px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 35px;
+}
+
+.bloque_datos_adicional p {
+	font-family: 'Maven Pro', sans-serif;
+	color: #000000;
+	font-weight: normal;
+	font-size: 0.9em;
+	line-height: 5px;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+.bloque_datos img {
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.bloque_datos_margen {
+	width: 480px;
+	height: 42px;
+	float: right;
+}
+/* Fin para datos de reataurantes */
+	
+}
+/* Fin SmartPhone */
+
+
+
+
+
+/* Computadores */
+@media screen and (min-width: 640px) {
+	
+/* Bloque general */
+.bloque_activador_general {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	background-color: #4E7D13;
+	cursor: pointer;
+}
+
+.bloque_activador_general:hover {
+	color: #32520C;
+	background-color: #97DF35;
+}
+/* Fin Bloque general  */
+
+
+/* Estilo Poblado. Rosado */
+.bloque_activador_rosado {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 700px;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	position: relative;
+	z-index: 999;
+	background-color: #FFAEDF;
+	cursor: pointer;
+}
+
+.bloque_activador_rosado:hover {
+	color: #FFFFFF;
+	background-color: #AA0066;
+}
+/* Fin Estilo Poblado. Rosado */
+
+
+/* Estilo Palmas. Verde */
+.bloque_activador_verde {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 700px;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	position: relative;
+	z-index: 999;
+	background-color: #7CCD7C;
+	cursor: pointer;
+}
+
+.bloque_activador_verde:hover {
+	color: #FFFFFF;
+	background-color: #548B54;
+}
+/* Fin EstiloPalmas. Verde */
+
+
+/* Estilo Llano Grande. Azul */
+.bloque_activador_azul {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 700px;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	position: relative;
+	z-index: 999;
+	background-color: #00B2EE;
+	cursor: pointer;
+}
+
+.bloque_activador_azul:hover {
+	color: #FFFFFF;
+	background-color: #00688B;
+}
+/* Fin Estilo Llano Grande. Azul */
+
+
+/* Estilo Envigado. Naranja */
+.bloque_activador_naranja {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 700px;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	position: relative;
+	z-index: 999;
+	background-color: #F2B955;
+	cursor: pointer;
+}
+
+.bloque_activador_naranja:hover {
+	color: #FFFFFF;
+	background-color: #8B4513;
+}
+/* Fin Estilo Envigado. Naranja */
+
+
+/* Estilo Sabaneta. Violeta */
+.bloque_activador_violeta {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 700px;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	position: relative;
+	z-index: 999;
+	background-color: #D1A0E9;
+	cursor: pointer;
+}
+
+.bloque_activador_violeta:hover {
+	color: #FFFFFF;
+	background-color: #68228B;
+}
+/* Fin Estilo Sabaneta. Violeta */
+
+
+/* Estilo Laureles. Rojo */
+.bloque_activador_rojo {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 700px;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	position: relative;
+	z-index: 999;
+	background-color: #FF8080;
+	cursor: pointer;
+}
+
+.bloque_activador_rojo:hover {
+	color: #FFFFFF;
+	background-color: #B22222;
+}
+/* Fin Estilo Laureles. Rojo */
+
+
+/* Estilo Centro. Cafe */
+.bloque_activador_cafe {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+	text-indent: 10px;
+	line-height: 55px;
+	text-transform: none;
+	width: 700px;
+	height: 60px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	position: relative;
+	z-index: 999;
+	background-color: #CDBE70;
+	cursor: pointer;
+}
+
+.bloque_activador_cafe:hover {
+	color: #FFFFFF;
+	background-color: #8B814C;
+}
+/* Fin Estilo Centro. Cafe */
+	
+	
+	
+/* Estilo del campo de los restaurantes. Dirección, teléfono... */
+.bloque_contenido {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #444444;
+	width: 700px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: transparent;
+	}
+	
+/* Bloque carta */
+.bloque_carta {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #444444;
+	width: 660px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	}
+
+.bloque_carta img {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: none;
+	}
+/* Fin Bloque carta */
+
+
+/* Bloque mapa */
+.bloque_mapa {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 0.9em;
+	color: #444444;
+	/* display: none; */
+	width: 700px;
+	height: 600px;
+	margin: 5px auto 25px auto;
+	/* overflow: hidden; */
+	background-color: #F3F3F3;
+}
+	
+#map {
+	width: 700px;
+	height: 600px;
+	margin: 0 auto;
+}
+	
+.cambiar_mapa_btn {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #223509;
+	text-align: center;
+	line-height: 45px;
+	text-decoration: none;
+	font-style: normal;
+	width: 180px;
+	height: 45px;
+	display: block;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	float: left;
+	background-color: #97DF35;
+	border: none;
+	cursor: pointer;
+}
+	
+.cambiar_mapa_btn:hover {	
+	color: #FFFFFF;
+}
+
+#map-canvas {
+	width: 700px;
+	height: 480px;
+}
+
+.bloque_mapa iframe {
+	display: block;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: hidden;
+}
+	
+	
+#mapa {
+	width: 700px;
+  	height: 600px;
+	display: block;
+	float: left;
+	background-color: #FFFFFF;
+	}
+	
+#plano {
+	width: 350px;
+  	height: 600px;
+	display: block;
+	float: left;
+	background-color: #FFFFFF;
+	}
+/* Fin Bloque mapa */
+
+
+/* Estilo para datos de reataurantes */
+.bloque_datos {
+	width: 700px;
+	height: auto;
+	float: left;
+	margin: 5px;
+	border-bottom: 1px dashed #C2C1C1;
+}
+
+.bloque_datos a {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #8A0000;
+	font-weight: normal;
+	line-height: 16px;
+	text-decoration: none;		
+}
+
+.bloque_datos a:hover {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	color: #FF1C1C;
+	font-weight: normal;
+	line-height: 16px;
+	text-decoration: none;		
+}
+
+.bloque_datos p {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1.25em;
+	color: #000000;
+	font-weight: normal;
+	text-align: left;
+	line-height: 30px;
+	margin-left: 65px;
+}
+
+.bloque_datos img {
+	float: left;
+	padding: 15px;
+}
+
+.bloque_datos_adicional {
+	color: #000000;
+	width: 100%;
+	height: 30px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 48px;
+}
+
+.bloque_datos_adicional p {
+	font-family: 'Maven Pro', sans-serif;
+	color: #000000;
+	font-weight: normal;
+	font-size: 1.2em;
+	line-height: 5px;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+.bloque_datos img {
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.bloque_datos_margen {
+	width: 100%;
+	height: 42px;
+	float: right;
+}
+/* Fin para datos de reataurantes */
+	
+}
+/* Fin Computadores */
